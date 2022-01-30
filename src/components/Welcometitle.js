@@ -7,8 +7,8 @@ function Welcometitle() {
 
     
   return <Welcome>
-
-        <h2>What would you like today?</h2>
+        
+        <h3>What would you like today?</h3>
 
 
   </Welcome>;
@@ -22,10 +22,7 @@ justify-content:center;
 margin-top:15vh;
 margin-bottom:5vh;
 
-
-
-
-h2 {
+h3 {
     color:white;
     text-transform:uppercase;
 }

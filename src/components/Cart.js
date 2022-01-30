@@ -68,7 +68,7 @@ function Cart() {
             + </Button>
 
             <IconButton aria-label="delete" size="large" onClick={() => removeItem(item.id)}>
-        <DeleteIcon fontSize="inherit" />
+        <DeleteIcon fontSize="inherit" style={{ fill: '#FFFF' }} />
       </IconButton>
          
       </td>

@@ -29,8 +29,12 @@ const Meny = () => {
       <>
       
     <WelcomeTitle />
+    <Menu>
+    <h1>MENU</h1>
+    </Menu>
       
     <Wrap>
+  
      
       <Container>
           
@@ -78,6 +82,11 @@ margin-bottom:10vh;
 
 
 `
-
+const Menu = styled.div`
+h1{
+color:white;
+font-size:64px;
+}
+`
 
 

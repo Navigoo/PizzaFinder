@@ -37,11 +37,14 @@ function ItemCard(props) {
     <tr>
 </tr>
 </Table>
-</TableContainer>
 
+</TableContainer>
+<Adding>
+  <p>Add</p>
 <IconButton aria-label="add to shopping cart" onClick={() => addItem(props.item)}>
-  <AddShoppingCartIcon style={{ fill: '#04BF68'  }} />
+  <AddShoppingCartIcon style={{ fill: '#04BF68' }} />
 </IconButton>
+</Adding>
 
 </Container>
  
@@ -62,7 +65,13 @@ justify-content:center;
 
 `
 
+const Adding = styled.div`
+padding-top:60px;
 
+p{
+  color:white;
+}
+`
 
 
 
