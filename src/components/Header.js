@@ -17,7 +17,7 @@ const [menuStatus, setMenuStatus] = useState(false);
             <a href="/"><p>PizzaFinder</p> </a>
            
            <Announce>
-        <p>A pizza always nearby</p> 
+           <a href="/"><p>A pizza always nearby</p> </a>
                      
            </Announce>
 
@@ -30,7 +30,7 @@ const [menuStatus, setMenuStatus] = useState(false);
              <ClosingWrapper> 
                 <CustomClose onClick={()=>setMenuStatus(false)}sx={{ color: "white",  background:"white"}}/>
              </ClosingWrapper> 
-             <li><a href="#/">My Account</a></li>
+             <li><a href="/orders">Orders</a></li>
              <li><a href="#/">Customer Service</a></li>
              <li><a href="#/">Integrity</a></li>
              <li><a href="#/">About PizzaFinder</a></li>

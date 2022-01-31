@@ -17,7 +17,8 @@ function LocationMapping() {
     useEffect(() => {
         // GET request using axios inside useEffect React hook to only run once
         axios.get(url)
-            .then(response => setShowRestaurantList(response.data));
+            .then(response => setShowRestaurantList(response.data))
+            .catch(err => console.log(err))
            
        
     }, []);

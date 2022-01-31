@@ -14,6 +14,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 function Cart() {
 
 
+ 
+
      //Modal confirm function purchase
      const [show, setShow] = useState(false);
 
