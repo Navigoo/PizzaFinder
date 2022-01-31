@@ -77,7 +77,10 @@ function Cart() {
       </tr>
       )    
       
-    })}            
+    })}   
+
+    
+             
 </tbody>
   
         </Table>
@@ -103,15 +106,21 @@ function Cart() {
         </Modal.Header>
         <Modal.Body>
             Thanks for your order.
-            Your order is soon ready to pick-up!
+            Your order is soon ready to pick-up, go to orders page to 
+            see when your order is ready!
             </Modal.Body>
+           
         <Modal.Footer>
+        
+
+          {/*Use of dual functions in one onClick is not preferred but i did it anyway :) */}
           <Button variant="secondary" onClick={() => {
           handleClose();
           emptyCart(items);
         }}>
-            Close
+            See my orderstatus
           </Button>
+          
           
         </Modal.Footer>
       </Modal>
