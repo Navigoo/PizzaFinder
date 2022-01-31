@@ -6,8 +6,8 @@ import { Container } from "react-bootstrap";
 import styled from 'styled-components';
 
 
-//NOTE TO RICHARD, USE PARAMS TO GET THE RESTAURANT ID NUMBER FROM URL AND USE IT IN URL BELOW
 
+//Dynimic url below is of course possible, in this case i did not :)
 //API url "Restuarants"
 const url = `https://private-63b47-pizzaapp.apiary-mock.com/restaurants/1/menu?`
 
