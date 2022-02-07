@@ -44,10 +44,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 # pizza-finder
 
-Richard Comment:
 
-This App is part of a test on behalf of Umain.
-Some of the content is not allowed to be used in commercial purpose.
 
 
 
